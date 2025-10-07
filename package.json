@@ -1,0 +1,38 @@
+{
+  "name": "spending-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && python main.py",
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@radix-ui/react-progress": "latest",
+    "@radix-ui/react-select": "latest",
+    "@radix-ui/react-tabs": "latest",
+    "@tanstack/react-query": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "latest",
+    "geist": "latest",
+    "lucide-react": "^0.454.0",
+    "next": "15.2.4",
+    "react": "^19",
+    "react-dom": "^19",
+    "recharts": "latest",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.0",
+    "postcss": "^8.5",
+    "typescript": "^5"
+  }
+}
